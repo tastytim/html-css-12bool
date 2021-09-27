@@ -22,6 +22,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
   height: 100%;
+  width: 100%;
 }
 
 .box {
@@ -45,6 +46,11 @@
     padding: 0 10px;
   }
 
+  .height75-color-white{
+      height: 75px;
+      background-color: white;
+  }
+
   .center{
       display: flex;
       justify-content: center;
@@ -56,8 +62,25 @@
   }
 
 
+  .flex{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .align-left{
+      justify-content: flex-end;
+  }
+  .align-right{
+      justify-content: flex-start;
+  }
+  .align-center{
+      justify-content: center;
+  }
+
+
 .box-nested {
   height: 50px;
+  max-width: 100%;
   background-color: #01e165;
   border: 1px solid blu #006dfa;
   text-align: center;
@@ -121,49 +144,49 @@
 
 .offset-xs-1 {
   margin-left: calc((100% / 12) * 1);
-  max-width: calc((100% / 12) * 1);
+ 
 }
 .offset-xs-2 {
   margin-left: calc((100% / 12) * 2);
-  max-width: calc((100% / 12) * 2);
+ 
 }
 .offset-xs-3 {
   margin-left: calc((100% / 12) * 3);
-  max-width: calc((100% / 12) * 3);
+  
 }
 .offset-xs-4 {
   margin-left: calc((100% / 12) * 4);
-  max-width: calc((100% / 12) * 4);
+ 
 }
 .offset-xs-5 {
   margin-left: calc((100% / 12) * 5);
-  max-width: calc((100% / 12) * 5);
+ 
 }
 .offset-xs-6 {
   margin-left: calc((100% / 12) * 6);
-  max-width: calc((100% / 12) * 6);
+ 
 }
 .offset-xs-7 {
   margin-left: calc((100% / 12) * 7);
-  max-width: calc((100% / 12) * 7);
+ 
 }
 .offset-xs-8 {
   margin-left: calc((100% / 12) * 8);
-  max-width: calc((100% / 12) * 8);
+
 }
 .offset-xs-9 {
   margin-left: calc((100% / 12) * 9);
-  max-width: calc((100% / 12) * 9);
+ 
 }
 .offset-xs-10 {
   margin-left: calc((100% / 12) * 10);
-  max-width: calc((100% / 12) * 10);
+  
 }
 .offset-xs-11 {
   margin-left: calc((100% / 12) * 11);
-  max-width: calc((100% / 12) * 11);
+  
 }
 .offset-xs-12 {
   margin-left: 100%;
-  max-width: 100%;
+  
 }
